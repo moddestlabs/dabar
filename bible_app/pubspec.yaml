@@ -1,0 +1,36 @@
+name: bible_app
+description: Dabar Bible Study App - Flutter UI
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Local dependency on bible_core
+  bible_core:
+    path: ../bible_core
+  
+  # State management (choose one: provider, riverpod, or bloc)
+  # provider: ^6.1.0
+  
+  # TTS
+  # flutter_tts: ^4.0.0
+  
+  # Storage
+  # shared_preferences: ^2.2.0
+  # path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # assets:
+  #   - assets/data/
